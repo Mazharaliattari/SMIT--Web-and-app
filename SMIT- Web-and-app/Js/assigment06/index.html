@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Password Generator</title>
+  </head>
+  <body>
+
+    <!-- hero sectiom -->
+    <section class="hero">
+      <div class="container justify-content-center align-items-center">
+        <div class="text-center">
+          <h1 class="fw-bold mt-5">Random Password Generator</h1>
+          <p class="text-dark-emphasis mt-3">
+            Create strong and secure passwords to keep your account safe online.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="image">
+                <img
+                  class="img-fluid"
+                  src="./assets/heroimage.svg"
+                  alt=" heroimage"
+                />
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 align-content-around">
+              <div class="input1 mt-4 d-flex gap-3">
+                <!-- <input class="rounded-pill" type="text" /> -->
+                <div
+                  id="input"
+                  class="px-3 border border-dark-subtle rounded-pill align-items-center d-flex"
+                ></div>
+                <button
+                  onclick="generator()"
+                  class="btn btn-primary rounded-pill shadow-sm px-4 py-2"
+                >
+                  Generate
+                </button>
+              </div>
+              <div class="d-flex gap-4 mt-4">
+                <p>Password Lenght:</p>
+                <input type="range" class="form-range w-25" max="50" min="0" />
+              </div>
+              <div class="d-flex gap-4 mt-4">
+                <p>Character used:</p>
+                <label for="ABC" class="form-check-label">ABC</label>
+                <input id="ABC" type="checkbox" class="form-check-input" />
+                <label for="abc" class="form-check-label">abc</label>
+                <input id="abc" type="checkbox" class="form-check-input" />
+                <label for="123" class="form-check-label">123</label>
+                <input id="123" type="checkbox" class="form-check-input" />
+                <label for="#$&" class="form-check-label">#$&</label>
+                <input id="#$&" type="checkbox" class="form-check-input" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- card section -->
+    
+    <script
+      src="https://kit.fontawesome.com/1c074bcd7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="pooper.js"></script>
+    <script src="bootstrapscript.js"></script>
+    <script src="bundle.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
