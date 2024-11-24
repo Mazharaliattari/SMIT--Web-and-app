@@ -1,0 +1,14 @@
+.reg-sec{
+    text-align: center;
+}
+button{
+    padding: 15px 130px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.main_heading p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
