@@ -1,0 +1,12 @@
+.top_navbar{
+    background-color: rgb(168, 206, 240);
+    height: 80px;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 25px !important;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 12px;
+}
